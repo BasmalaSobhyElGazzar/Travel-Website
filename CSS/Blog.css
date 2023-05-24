@@ -1,0 +1,93 @@
+#blog
+{
+    text-align: center;
+    padding: 5% 0;
+}
+
+#blog div
+{
+    margin: auto;
+}
+
+#blog img
+{
+    width: 100%;
+    height: 450px;
+}
+
+#blog p
+{
+    font-size: 17px;
+}
+
+.more
+{
+    display: none;
+}
+
+.seeMore
+{
+    color: blue;
+    cursor: pointer;
+}
+
+.middle
+{
+    padding: 50px 0;
+}
+
+#new
+{
+    display: none;
+}
+
+#ex
+{
+    background-color: ;
+}
+
+#ex input
+{
+    display: block;
+}
+
+.ima
+{
+    
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.ima input::-webkit-file-upload-button
+{
+    visibility: hidden;
+}
+
+.ima input::before
+{
+    content: 'Upload Image';
+    display: inline-block;
+    color: #fff;
+	background-color: #f9be37;
+	font-weight: 700;
+    width: 205px;
+	height: 50px;
+	padding: 10px 30px;
+	border-radius: 40px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	transition: 0.2s all;
+    cursor: pointer;
+    -webkit-user-select: none;
+    text-align: center;
+}
+
+.ima input:focus
+{
+    outline: none;
+}*/

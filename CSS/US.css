@@ -1,0 +1,150 @@
+/*Contact Us*/
+#contact
+{
+    padding: 100px 0;
+}
+
+.inline
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.inline p 
+{
+    font-size: 17px;
+    font-weight: 450;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #666666;
+}
+
+.inline h3
+{
+   color: rgba(0, 0, 0, 0.8);  
+}
+
+#contact .social a
+{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#contact .social a:hover
+{
+    color: #f9be37;
+}
+
+textarea.form-control
+{
+    margin-top: 50px;
+    height: 250px;
+    padding: 20px;
+}
+
+/*End of Contact Us*/
+
+/*About Us*/
+.aboutt
+{
+    margin: 5% 0 2% 0;
+}
+
+.aboutt p
+{
+    color: #666666;
+}
+
+.team
+{
+    text-align: center;
+    background-color: #f8faff;
+    padding: 5% 0;
+    width: 100%;
+}
+
+.imag
+{
+    margin-top: 50px;
+}
+
+.mangeF
+{
+    border: 16px inset #fafafa;
+    padding: 50px;
+    border-radius: 30%;
+}
+
+.mangeM
+{
+    border: 16px outset #fafafa;
+    padding: 50px;
+    border-radius: 30%;
+}
+
+.team p
+{
+    color: #666666;
+}
+
+.img1
+{
+    width: 250px;
+    height: 250px;
+}
+
+.vid video
+{
+    width: 100%;
+    height: auto;
+}
+
+.cv
+{
+    margin: 5% 0;
+}
+
+.cv .imagge
+{
+    text-align: center;
+}
+
+.cv .send
+{
+    align-self: center;
+    padding-left: 20px;
+}
+
+.cv #myFile::-webkit-file-upload-button
+{
+    visibility: hidden;
+}
+
+.cv #myFile::before
+{
+    content: 'Upload Your CV';
+    display: inline-block;
+    color: #fff;
+	background-color: #f9be37;
+	font-weight: 700;
+    width: 225px;
+	height: 50px;
+	padding: 10px 30px;
+	border-radius: 40px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	transition: 0.2s all;
+    cursor: pointer;
+    -webkit-user-select: none;
+    text-align: center;
+}
+
+.cv #myFile:focus
+{
+    outline: none;
+}
+/*End of About Us*/

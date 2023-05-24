@@ -1,0 +1,122 @@
+/*
+    mainColor (Yellow): #f9be37;
+    ButtonColor (Green): #08c299;
+    Headers: color: rgba(0, 0, 0, 0.8);
+    p: #666666;
+*/
+.hidden
+{
+    display: none;
+}
+
+nav
+{
+    padding: 20px;
+}
+
+nav button
+{
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav button:focus
+{
+    outline: none;
+}
+
+
+nav li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 15px 10px 15px;
+}
+
+nav a, nav a:hover
+{
+    color: black;
+    text-decoration: none;
+}
+
+.colored, .colored:hover
+{
+    color: #f9be37;
+}
+/*End of Nav*/
+
+/*Footer*/
+footer
+{
+    background-color: #222831;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 50px;
+}
+
+footer h4
+{
+    margin: 25px 0 25px 0;
+    color: white;
+}
+
+footer ul
+{
+    margin-left: -25px;
+}
+
+footer ul>li
+{
+    list-style: none;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+footer a
+{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer a:hover
+{
+    text-decoration: none;
+    color: #f9be37;
+}
+
+.social a
+{
+    font-size: 30px;
+    margin: 10px;
+}
+/*End of Footer*/
+
+/*The style of the body with width between "575px" and "600px"*/
+@media(min-width:575px)
+{
+    
+}
+/*End of "575px" width*/
+
+/*The style of the body with width between "600px" and "768px"*/
+@media(min-width:600px)
+{
+    
+}
+/*End of "600px" width*/
+
+/*The style of the body with width between "768px" and "992px"*/
+@media(min-width:768px)
+{
+    
+}
+/*End of "768px" width*/
+
+/*The style of the body with minimum width "992px"*/
+@media(min-width:992px)
+{
+    
+}
+/*End of "992px" width*/
+
+/*# sourceMappingURL =scss.css.map */

@@ -1,0 +1,99 @@
+/*Hotel*/
+
+#Hotel
+{
+    width: 100%;
+    text-align: center;
+}
+
+#Hotel .links
+{
+    width: 100%;
+    padding: 2% 0;
+}
+
+#Hotel .links li
+{
+    text-align: center;
+    margin: 10px;
+}
+
+#Hotel .links a
+{
+    color: #fff;
+	background-color: #f9be37;
+	font-weight: 700;
+	height: 60px;
+	padding: 10px 25px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	transition: 0.2s all;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+#Hotel .links a:hover
+{
+    text-decoration: none;
+}
+
+#Hotel .links .active
+{
+    background-color: white;
+    color: #f9be37;
+    border: 2px solid #f9be37;
+}
+
+#Hotel .info
+{
+    margin-left: -25px;
+    text-align: left;
+}
+
+#Hotel .info>li
+{
+    list-style: none;
+    margin: 0;
+}
+
+#Hotel .info>li a
+{
+    color: black;
+}
+
+#Hotel .info>li a:hover
+{
+    color: black;
+}
+
+.price
+{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Hotel img
+{
+    height: 350px;
+    width: 100%;
+    border: none;
+}
+
+.caption
+{
+    background-color: #f8faff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    width: 100%;  
+}
+
+/*End of Hotel*/

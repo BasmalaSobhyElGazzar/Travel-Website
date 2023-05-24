@@ -1,0 +1,171 @@
+/*Home*/
+/*Offers Div*/
+#offer
+{
+    padding: 5% 0;
+}
+
+#offer h1
+{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#offer .info
+{
+    margin-left: -25px;
+    text-align: left;
+}
+
+#offer .info>li
+{
+    list-style: none;
+    margin: 0;
+}
+
+#offer .info>li a
+{
+    color: black;
+}
+
+#offer .info>li a:hover
+{
+    color: black;
+}
+
+#offer img
+{
+    height: 350px;
+    width: 100%;
+    border: none;
+}
+
+.caption
+{
+    background-color: #f8faff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    width: 100%;  
+    text-align: center;
+}
+
+.price .no
+{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: red;
+}
+
+.btnBook
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.btnBook a
+{
+    border: none;
+    background-color: inherit;
+    color: #f9be37;
+    font-weight: 500;
+    text-decoration: none;
+}
+/*End of Offers Div*/
+
+/*Chooseus Div*/
+.chooseus 
+{
+	padding: 5% 0;
+    background-color: #08c299;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
+
+.choose .section 
+{
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.choose .section h2 
+{
+	width: 60%;
+    color: #fff;
+}
+
+.choose a
+{
+    color: #fff;
+	background-color: inherit;
+	font-weight: 700;
+	height: 60px;
+	padding: 20px;
+    width: 250px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	transition: 0.2s all;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+/*End of Chooseus Div*/
+
+/*Gallery Div*/
+#gallery
+{
+    padding: 10% 0;
+    background-color: #f8faff;
+}
+
+#gallery img
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    transition: transform .2s;
+}
+
+#gallery img:hover
+{
+    transform: scale(0.9);
+}
+/*End of Gallery Div*/
+
+/*Recommended Div*/
+.recommanded
+{
+    text-align: center; 
+    margin: 5% 0;
+}
+
+.recommanded .reco
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommanded img
+{
+    width: 80%;
+}
+/*End of Recommended Div*/
+
+/*The style of the body with width between "600px" and "768px"*/
+@media(min-width:600px)
+{
+    #gallery img:hover
+    {
+        transform: scale(1.1);
+    }
+}
